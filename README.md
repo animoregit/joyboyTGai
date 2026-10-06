@@ -2,7 +2,7 @@
 
 Premium monochrome landing page for **Joyboy AI**, a multi-model AI assistant on Telegram.
 
-- **Bot:** [@joyboyAI_bot](https://t.me/joyboyAI_bot)
+- **Bot:** [@joyboy_AI_BOT](https://t.me/joyboy_AI_BOT)
 - **Founder:** Joyboy — [@esczi](https://t.me/esczi)
 
 ## Run it
