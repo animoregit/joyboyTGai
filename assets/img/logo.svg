@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" fill="none" role="img" aria-label="Joyboy AI logo">
+  <!-- Joyboy AI mark: small disc → wave hook → large disc, ascending diagonal -->
+  <g fill="#ffffff">
+    <ellipse cx="182" cy="452" rx="60" ry="74"/>
+    <circle cx="491" cy="305" r="87"/>
+  </g>
+  <path d="M283 396 C283 426 303 444 328 437 C348 431 359 411 357 371"
+        stroke="#ffffff" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <circle cx="355" cy="377" r="17" fill="#ffffff"/>
+</svg>

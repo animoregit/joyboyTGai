@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Joyboy AI — Intelligence, inside Telegram</title>
+<meta name="description" content="Joyboy AI is a premium AI assistant that lives inside Telegram. Multi-model reasoning, fast answers, zero app-switching." />
+<meta name="theme-color" content="#000000" />
+<meta property="og:title" content="Joyboy AI — Intelligence, inside Telegram" />
+<meta property="og:description" content="A premium multi-model AI assistant built for Telegram." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+<!-- Scroll progress -->
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark brand__mark--logo" aria-hidden="true">
+        <img src="assets/img/logo-dark.svg" alt="" class="logo-img" width="26" height="26" />
+      </span>
+      <span class="brand__text">Joyboy<span class="brand__dim">/AI</span></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#models">Models</a>
+      <a href="#how">How it works</a>
+      <a href="#founder">Founder</a>
+      <a class="btn btn--sm btn--solid" href="https://t.me/joyboyAI_bot" target="_blank" rel="noopener">
+        Open in Telegram
+      </a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="wrap hero__inner">
+      <div class="hero__topline">
+        <span class="hero__logo-wrap reveal" aria-hidden="true">
+          <img src="assets/img/logo-dark.svg" alt="" class="hero__logo" id="heroLogo" width="120" height="120" />
+        </span>
+
+        <p class="eyebrow reveal" data-delay="1">
+          <span class="dot"></span> Joyboy AI &nbsp;—&nbsp; now live on Telegram
+        </p>
+      </div>
+
+      <h1 class="hero__title reveal" data-delay="1">
+        Intelligence,<br /><span class="outline">inside Telegram.</span>
+      </h1>
+
+      <p class="hero__sub reveal" data-delay="2">
+        Joyboy AI is a multi-model assistant built for one thing: answering you.
+        No installs, no tab-switching, no paywalls in the way — just open a chat and think out loud.
+      </p>
+
+      <div class="hero__cta reveal" data-delay="3">
+        <a class="btn btn--solid btn--lg" href="https://t.me/joyboyAI_bot" target="_blank" rel="noopener" data-magnetic>
+          Open Joyboy AI
+          <svg class="btn__icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.2 3.2 4.6 8.1h3.1v8.7h4.6V8.1h3.1L9.2 3.2Z"/></svg>
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#features">Explore features</a>
+      </div>
+
+      <div class="hero__meta reveal" data-delay="4">
+        <div><strong>Multi-model</strong><span>GPT · Claude · Gemini</span></div>
+        <div><strong>Streaming</strong><span>Token-by-token replies</span></div>
+        <div><strong>Zero-install</strong><span>Works on any device</span></div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>REASONING</span><i>—</i><span>CODE</span><i>—</i><span>SUMMARISE</span><i>—</i><span>TRANSLATE</span><i>—</i><span>DESCRIBE IMAGES</span><i>—</i><span>DEBUG</span><i>—</i><span>BRAINSTORM</span><i>—</i>
+      <span>REASONING</span><i>—</i><span>CODE</span><i>—</i><span>SUMMARISE</span><i>—</i><span>TRANSLATE</span><i>—</i><span>DESCRIBE IMAGES</span><i>—</i><span>DEBUG</span><i>—</i><span>BRAINSTORM</span><i>—</i>
+    </div>
+  </div>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section" id="features">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <span class="sec-head__num">01</span>
+        <h2>Built to be <em>actually useful</em></h2>
+        <p>Not a toy, not a wrapper. A focused assistant with the tools a real answer needs.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal" data-delay="1">
+          <span class="card__idx">01</span>
+          <h3>Instant answers</h3>
+          <p>Send a message and get a response in seconds. Joyboy AI streams replies token by token, so it feels like thinking out loud — not waiting on a spinner.</p>
+        </article>
+        <article class="card reveal" data-delay="2">
+          <span class="card__idx">02</span>
+          <h3>Context that sticks</h3>
+          <p>Conversations carry forward. Ask a follow-up three messages later and Joyboy AI still knows exactly what you meant.</p>
+        </article>
+        <article class="card reveal" data-delay="3">
+          <span class="card__idx">03</span>
+          <h3>Vision built in</h3>
+          <p>Send a photo, screenshot or scanned document. It gets described, extracted, reasoned about and summarised on the spot.</p>
+        </article>
+        <article class="card reveal" data-delay="4">
+          <span class="card__idx">04</span>
+          <h3>Developer-grade output</h3>
+          <p>Code in any language, explained properly, with formatting that survives copy-paste into your editor. No escaping, no mangling.</p>
+        </article>
+        <article class="card reveal" data-delay="5">
+          <span class="card__idx">05</span>
+          <h3>Private by design</h3>
+          <p>One chat, no account sprawl, no data-selling. What you ask Joyboy AI is your business.</p>
+        </article>
+        <article class="card reveal" data-delay="6">
+          <span class="card__idx">06</span>
+          <h3>Works everywhere</h3>
+          <p>Telegram on iOS, Android, Desktop and Web. The same assistant, on every screen you already use.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES / MODELS ============ -->
+  <section class="section section--alt" id="models">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <span class="sec-head__num">02</span>
+        <h2>One chat. <em>Every model.</em></h2>
+        <p>Joyboy AI routes your question to the right engine — so you get the best answer without picking a vendor.</p>
+      </header>
+
+      <div class="models">
+        <div class="models__list reveal">
+          <div class="model" tabindex="0">
+            <div class="model__head"><span class="model__name">GPT-4 class</span><span class="model__tag">Reasoning</span></div>
+            <p>Reliable structured answers, instruction following, and strong general-purpose performance for everyday work.</p>
+          </div>
+          <div class="model" tabindex="0">
+            <div class="model__head"><span class="model__name">Claude class</span><span class="model__tag">Long context</span></div>
+            <p>Built for long documents, careful analysis and explanations that stay coherent far past the usual limit.</p>
+          </div>
+          <div class="model" tabindex="0">
+            <div class="model__head"><span class="model__name">Gemini class</span><span class="model__tag">Multimodal</span></div>
+            <p>Native image understanding plus a huge context window — drop in a full codebase or photo set and ask.</p>
+          </div>
+          <div class="model" tabindex="0">
+            <div class="model__head"><span class="model__name">Open-weight class</span><span class="model__tag">Fast &amp; free</span></div>
+            <p>Lean models for quick lookups, drafting and everyday tasks — near-instant responses, minimal cost.</p>
+          </div>
+        </div>
+
+        <aside class="models__panel reveal" data-delay="2">
+          <div class="panel__glow" aria-hidden="true"></div>
+          <div class="panel__head">
+            <span class="panel__avatar">
+              <img src="assets/img/joyboy-logo.png" alt="Joyboy AI bot avatar" width="34" height="34" />
+            </span>
+            <span class="panel__name">Joyboy AI</span>
+            <span class="panel__status"><span class="panel__status-dot"></span>online</span>
+          </div>
+          <p class="panel__label">Live preview</p>
+          <pre class="panel__code"><code><span class="c-user">you ›</span> summarise this contract
+<span class="c-ai">joyboy ›</span> <span class="c-dim">thinking…</span>
+
+<span class="c-ok">✓</span> extracted 14 clauses
+<span class="c-ok">✓</span> flagged 2 non-standard terms
+<span class="c-ok">✓</span> plain-English summary ready
+
+<span class="c-dim">model:</span> long-context-1
+<span class="c-dim">latency:</span> 1.4s
+<span class="c-dim">tokens:</span> 3,120 in / 610 out</pre>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <header class="sec-head reveal">
+        <span class="sec-head__num">03</span>
+        <h2>Three steps. <em>That's the whole thing.</em></h2>
+      </header>
+
+      <ol class="steps">
+        <li class="step reveal" data-delay="1">
+          <span class="step__n">1</span>
+          <h3>Open the chat</h3>
+          <p>Tap the link. Joyboy AI is waiting — no signup, no download, no permissions to wade through.</p>
+        </li>
+        <li class="step reveal" data-delay="2">
+          <span class="step__n">2</span>
+          <h3>Ask anything</h3>
+          <p>Type a question, paste text, forward a message, or send a photo. Text, image, document — all supported.</p>
+        </li>
+        <li class="step reveal" data-delay="3">
+          <span class="step__n">3</span>
+          <h3>Get a real answer</h3>
+          <p>A streamed, formatted, contextual response. Copy it, build on it, keep going. That's it.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ FOUNDER ============ -->
+  <section class="section section--alt" id="founder">
+    <div class="wrap founder reveal">
+      <div class="founder__card">
+        <div class="founder__avatar" aria-hidden="true">
+          <img src="assets/img/joyboy-logo.png" alt="" class="founder__pfp" width="148" height="148" />
+        </div>
+        <div class="founder__body">
+          <p class="founder__role">Founder &amp; Builder</p>
+          <h2 class="founder__name">Joyboy</h2>
+          <p class="founder__bio">
+            Joyboy AI started as one frustration: great models were everywhere, and a genuinely
+            useful assistant was nowhere. So he built the thing he wanted — a single Telegram chat
+            that routes every question to the right model, answers in seconds, and stays out of the way.
+          </p>
+          <a class="btn btn--ghost" href="https://t.me/esczi" target="_blank" rel="noopener">
+            Contact the founder
+            <svg class="btn__icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.2 3.2 4.6 8.1h3.1v8.7h4.6V8.1h3.1L9.2 3.2Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta">
+    <div class="wrap">
+      <h2 class="cta__title reveal">Stop copying your question<br />into five different tabs.</h2>
+      <p class="cta__sub reveal" data-delay="1">Joyboy AI is free to open. Try it before you judge it.</p>
+      <a class="btn btn--solid btn--lg reveal" data-delay="2" href="https://t.me/joyboyAI_bot" target="_blank" rel="noopener" data-magnetic>
+        Open Joyboy AI on Telegram
+        <svg class="btn__icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.2 3.2 4.6 8.1h3.1v8.7h4.6V8.1h3.1L9.2 3.2Z"/></svg>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <span class="brand__text brand__text--footer"><img src="assets/img/logo.svg" alt="" class="footer__logo" width="22" height="22" aria-hidden="true" /> Joyboy<span class="brand__dim">/AI</span></span>
+      <p>Intelligence, inside Telegram.</p>
+    </div>
+
+    <nav class="footer__links">
+      <a href="https://t.me/joyboyAI_bot" target="_blank" rel="noopener">Joyboy AI bot</a>
+      <a href="https://t.me/esczi" target="_blank" rel="noopener">Founder — @esczi</a>
+      <a href="#features">Features</a>
+      <a href="#models">Models</a>
+      <a href="#how">How it works</a>
+    </nav>
+  </div>
+
+  <div class="wrap footer__base">
+    <p>© <span id="year"></span> Joyboy AI — Built by Joyboy. All rights reserved.</p>
+    <p class="footer__mono">t.me/joyboyAI_bot</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
